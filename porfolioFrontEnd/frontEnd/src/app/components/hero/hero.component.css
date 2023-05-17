@@ -1,0 +1,32 @@
+.row {
+  height: fit-content;
+  border: solid 1px red;
+}
+
+.img {
+  width: 100%;
+}
+
+.row .contenido {
+  position: absolute; /* Position the background text */
+  bottom: 130px; /* At the bottom. Use top:0 to append it to the top */
+  right: 0%;
+  border-radius: 15px 0px 0px 15px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #e5e8e8; /* Grey text */
+  width: 38%; /* Full width */
+  height: fit-content;
+  padding: 20px; /* Some padding */
+}
+
+#fotoperfil {
+  height: 250px;
+  width: auto;
+  border-radius: 320px;
+  margin: -30px 0px 0px 50px;
+}
+
+#acercaDe {
+  color: #e5e8e8; /* Grey text */
+}
