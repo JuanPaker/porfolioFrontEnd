@@ -1,7 +1,7 @@
 .row {
   height: fit-content;
-  border: solid 1px red;
 }
+
 
 .img {
   width: 100%;
@@ -27,6 +27,33 @@
   margin: -30px 0px 0px 50px;
 }
 
-#acercaDe {
-  color: #e5e8e8; /* Grey text */
+#acercaDe{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
 }
+
+.text {
+  width: fit-content;
+  height: fit-content;
+  color: #e5e8e8; /* Grey text */
+  font-size: 25px;
+  text-align: center;
+  
+}
+
+.present{
+  width: fit-content;
+  height: fit-content;
+  color: #e5e8e8; /* Grey text */
+  text-align: center;
+}
+
+#present{
+  justify-content: center;
+  align-items:flex-end;
+  display: flex;
+
+}
+
