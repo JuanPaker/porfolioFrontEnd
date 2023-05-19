@@ -1,0 +1,86 @@
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.education-area{
+    padding: 80px 0;
+    }
+
+h1{
+    color: rgba(42, 38, 38, 0.897);
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.card{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    width: fit-content;
+    
+    }
+
+
+
+h2{
+    color:rgba(42, 38, 38, 0.897);
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    border: solid 0px green;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    display: block;
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+    margin-left: 20px;
+    
+
+/*  para mantener aspecto 
+display: block;
+  max-width:150px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+*/
+}
+
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    border: solid 0px green;
+    justify-content: center;
+    margin-left: -40px;
+}
+
+
+.main-text h2{
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px;
+}
+
+
+
