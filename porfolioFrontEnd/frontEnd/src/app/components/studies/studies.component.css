@@ -1,8 +1,9 @@
 .row{
-    display: flex;
-    justify-content: center;
+    display: flex;  
 }
-
+.col-6{
+    margin-bottom: 30px;
+}
 
 .education-area{
     padding: 80px 0;
@@ -20,7 +21,7 @@ h1{
     flex-direction: row;
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     border-radius: 15px;
-    width: fit-content;
+    padding: 20px 0px 20px 0px;
     
     }
 
@@ -82,11 +83,23 @@ display: block;
     padding: 0 35px;
 }
 
+
+
+
+/*
 .carousel, .slide, .col-12{
     display: flex;
 }
 
 .carousel-inner{
     display: flex;
+    position: relative;
+    width: auto;
+    overflow: visible;
 }
 
+#slide{
+    display: flex;
+    justify-content: center;
+}
+*/
