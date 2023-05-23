@@ -11,7 +11,7 @@
 h1{
     color: rgba(42, 38, 38, 0.897);
     padding-left: 5%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 .card{
@@ -82,5 +82,11 @@ display: block;
     padding: 0 35px;
 }
 
+.carousel, .slide, .col-12{
+    display: flex;
+}
 
+.carousel-inner{
+    display: flex;
+}
 
